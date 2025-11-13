@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update     \
     && apt-get install --no-install-recommends -y \
