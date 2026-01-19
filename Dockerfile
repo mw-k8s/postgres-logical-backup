@@ -26,7 +26,7 @@ RUN apt-get update     \
         postgresql-client-16  \
         postgresql-client-15  \
     && apt-get clean \
-    && apt-get purge -y --auto-remove --purge gcc gnupg curl apt-utils libffi-dev \
+    && apt-get purge -y --auto-remove gcc gnupg curl apt-utils libffi-dev \
     && rm -rf /var/cache/apt/* \
     && rm -rf /var/lib/apt/lists/*
 
